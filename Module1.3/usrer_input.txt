@@ -1,0 +1,19 @@
+User Input কী?
+
+ User input মানে হলো user keyboard দিয়ে কিছু লিখবে, আর program সেটা নিবে।
+ 
+ Basic example:
+ name = input("Enter your name: ")
+
+ print("Your name is:", name)
+ এখানে:
+
+input() → user থেকে data নেয়
+
+"Enter your name: " → message দেখায়
+
+Note: input() সবসময় string (text) নেয়
+      For Number input :(type conversion ব্যবহার করো)
+      age = int(input("Enter age: "))
+
+      print(age + 5)
