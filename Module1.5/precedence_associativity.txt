@@ -1,0 +1,42 @@
+Precedence কী?
+
+ Precedence মানে হলো কোন operator আগে execute হবে
+
+ Operator Precedence (Important)
+
+উচ্চ থেকে নিচে 
+
+1.() → parentheses
+
+2.** → power
+
+3.* / // % → multiply/divide
+
+4.+ - → add/subtract
+
+5.comparison (==, >, <)
+
+
+ Associativity কী?
+
+ যদি same precedence এর operator থাকে, তাহলে কোনটা আগে হবে
+
+ 🔹 Left to Right (most cases)
+ 🔹 Right to Left (special case)
+                                 শুধু ** (power) right → left
+    
+a = 5
+b = 2
+c = 3
+
+result = a + b * c ** 2
+
+print(result)
+
+👉 solve:
+
+c² = 9
+
+b*9 = 18
+
+a+18 = 23
