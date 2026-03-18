@@ -1,0 +1,17 @@
+📘 Module 1.2: Variable (Python)
+🔹 Variable কী?
+
+👉 Variable হলো একটা container (বক্স), যেখানে data রাখা হয়।
+
+ex: name="Anwar"
+
+এখানে:
+name = variable
+"Anwar" = value
+
+Python Variable Rules
+1.নাম অবশ্যই letter বা underscore (_) দিয়ে শুরু হবে
+2.নামের মধ্যে letter, number, underscore থাকতে পারবে
+3.Space দেওয়া যাবে না
+4.Python keyword ব্যবহার করা যাবে না
+5.Variable case-sensitive
