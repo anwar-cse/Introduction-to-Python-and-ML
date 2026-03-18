@@ -1,0 +1,58 @@
+Operator কী?
+
+ Operator হলো এমন কিছু symbol যা দিয়ে আমরা calculation বা comparison করি
+
+ 1.Arithmetic Operations 
+
++ = যোগ
+- = বিয়োগ
+* = গুণ
+/ = ভাগ
+% = remainder (modulus)
+** = power
+// = floor division:=>Floor division মানে হলো ভাগ করার পরে result-কে নিচের (floor) পূর্ণসংখ্যায় নামিয়ে আনা।
+
+2.Comparison Operations 
+
+== = equal
+!= = not equal
+> = greater
+< = less
+>= = greater or equal
+<= = less or equal
+
+3. Logical Operations
+
+and
+or
+not
+
+4.Assignment Operations
+
+=
++=
+-=
+*=
+/=
+%=
+**=
+//=
+
+5.Bitwise Operations
+
+& = AND
+| = OR
+^ = XOR
+~ = NOT
+<< = left shift
+>> = right shift
+
+6.Membership Operations =>কোনো value list/string-এ আছে কিনা check করে
+
+in =>আছে কিনা
+not in =>নেই কিনা
+
+7.Identity Operations
+
+is  =>same object
+is not  =>different object
