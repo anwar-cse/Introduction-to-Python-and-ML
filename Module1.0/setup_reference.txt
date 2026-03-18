@@ -1,0 +1,20 @@
+Setup reference
+
+ Python Installation Guideline
+
+
+
+
+Python : https://www.python.org/
+
+VS Code: https://code.visualstudio.com/
+
+
+Required Extensions for VS Code:
+Python 
+Jupyter 
+
+
+Required Packages for Python:
+Jupyter
+Ipykernel
