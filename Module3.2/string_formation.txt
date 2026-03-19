@@ -1,0 +1,20 @@
+🔹 String Tokenization কী?
+
+👉 Tokenization = একটা string কে ছোট ছোট অংশে (tokens) ভাগ করা(oi kaj ta split method use kore kora hoy)
+
+📌 সাধারণত words আলাদা করা হয়
+
+🔹 join() কী?
+
+👉 join() = list (বা iterable) কে string এ convert করে
+
+📌 উল্টোটা split()
+
+syntax:
+    "separator".join(list)
+    👉 separator = কী দিয়ে join করবে (space, comma, etc.)
+
+
+🔹 String Formatting কী?
+
+👉 variable এর value string এর ভিতরে সুন্দরভাবে বসানো
