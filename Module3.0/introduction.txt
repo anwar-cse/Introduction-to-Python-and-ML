@@ -1,0 +1,38 @@
+🔹 Anaconda কী?
+
+=> Anaconda হলো একটা Python distribution (package)
+
+* কাজ কী?
+
+Python install করা
+
+অনেক দরকারি library (যেমন: numpy, pandas, matplotlib) একসাথে দেয়
+
+Data Science / Machine Learning এর জন্য খুব useful
+
+=> মানে: আলাদা আলাদা library install করতে হয় না
+
+🔹 Jupyter কী?
+
+=> Jupyter Notebook হলো একটা interactive coding environment
+
+ কাজ কী?
+
+কোড লিখে সাথে সাথে run করা
+
+output নিচেই দেখা
+
+text + code + image একসাথে রাখা যায়
+
+
+🔹 Google Colab কী?
+
+=> Google Colab (পুরা নাম: Google Colaboratory) হলো একটা online Jupyter Notebook
+
+ সহজভাবে বুঝো
+
+এটা browser এ চলে (install লাগেনা)
+
+Python কোড লিখে সাথে সাথে run করা যায়
+
+Google এর server ব্যবহার করে (তোমার PC power লাগে না)
