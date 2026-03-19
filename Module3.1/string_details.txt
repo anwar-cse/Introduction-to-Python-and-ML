@@ -1,0 +1,41 @@
+🔹 String কী?
+
+=> String = text বা character sequence
+
+🔹 String তৈরি করার উপায়:
+            s1 = "hello"
+            s2 = 'world'
+            s3 = """multi line string"""
+
+🔹 String indexing (indexing)
+    👉 index 0 থেকে শুরু হয়
+    s = "python"
+    print(s[0])   # p
+    print(s[3])   # h
+
+🔹 Negative indexing
+    print(s[-1])  # n
+    print(s[-2])  # o
+
+🔹 String slicing
+            s = "python"
+
+            print(s[0:4])   # pyth
+            print(s[:3])    # pyt
+            print(s[2:])    # thon
+            print(s[::2])   # pto
+        
+🔹 Slicing কী?
+
+👉 Slicing = string এর একটা অংশ (substring) বের করা
+ 
+Syntax:
+        s[start:end:step]
+
+📌 মানে:
+
+start → কোথা থেকে শুরু
+
+end → কোথায় গিয়ে থামবে (এই index include হবে না ❗)
+
+step → কয়টা করে jump করবে
