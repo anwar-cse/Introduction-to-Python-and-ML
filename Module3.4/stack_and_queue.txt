@@ -1,0 +1,41 @@
+🔹 Stack কী?
+
+👉 Stack = Last In First Out (LIFO)
+
+📌 মানে:
+👉 যেটা শেষে ঢুকবে, সেটা আগে বের হবে
+
+🔹 Stack operations
+
+            push() → add
+
+            pop() → remove
+
+            peek() → top দেখা
+
+🔹 Queue কী?
+
+👉 Queue = First In First Out (FIFO)
+
+📌 মানে:
+👉 যেটা আগে ঢুকবে, সেটা আগে বের হবে
+
+🔹 Queue operations
+
+                enqueue() → add
+
+                dequeue() → remove
+
+                front() → সামনে কে আছে
+
+🔹 List Comprehension কী?
+
+👉 এক লাইনে list তৈরি করার shortcut
+
+📌 normal loop-এর short version
+
+Syntax:
+        [expression for item in iterable]
+
+        lst = [x for x in range(5)]
+        print(lst)
