@@ -1,0 +1,19 @@
+🔹 Tuple কী?
+
+👉 Tuple = List-এর মতোই collection, কিন্তু immutable (change করা যায় না)
+
+Ex.
+    t = (1, 2, 3)
+    🔹 Tuple-এর বৈশিষ্ট্য
+
+                ✔ ordered (index আছে)
+                ✔ immutable (change করা যায় না ❗)
+                ✔ duplicate allowed
+
+🔹 Tuple তৈরি করা
+                t1 = (1, 2, 3)
+                t2 = ("a", "b", "c")
+                t3 = (1, "hi", 3.5)
+
+👉 single element:
+                    t = (5,)   # comma must ❗
