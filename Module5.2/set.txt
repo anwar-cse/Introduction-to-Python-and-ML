@@ -1,0 +1,12 @@
+🔹 Set কী?
+
+👉 Set = unique element-এর collection (duplicate থাকে না ❗)
+
+Ex. 
+    s = {1, 2, 3}
+
+    🔹 বৈশিষ্ট্য
+
+                    ✔ unordered (index নেই ❗)
+                    ✔ duplicate allowed না
+                    ✔ mutable (add/remove করা যায়)
