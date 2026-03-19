@@ -1,0 +1,19 @@
+🔹 Dictionary কী?
+
+👉 Dictionary = key-value pair collection
+
+📌 unordered, mutable
+
+Ex.
+    d = {"name": "Anwar", "age": 22}
+
+    🔹 বৈশিষ্ট্য
+
+            ✔ key unique
+            ✔ value যেকোনো type
+            ✔ index দিয়ে access হয় না (key দিয়ে access)
+
+🔹 Dictionary তৈরি করা
+                        d1 = {"a": 1, "b": 2}
+                        d2 = dict(x=10, y=20)
+                        d3 = {}
