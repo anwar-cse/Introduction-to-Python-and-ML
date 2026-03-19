@@ -1,0 +1,55 @@
+“যদি এইটা হয়, তাহলে এটা করো — না হলে অন্যটা করো”
+
+1. if statement
+কোনো একটি শর্ত সত্য (True) হলে কোড চালাবে।
+
+Ex.
+    x = 10
+    if x > 5:
+    print("x 5 এর চেয়ে বড়")
+
+2. if-else statement
+শর্ত সত্য হলে এক কাজ, মিথ্যা হলে অন্য কাজ।
+
+Ex.
+    if x > 5:
+        print("x 5 এর চেয়ে বড়")
+    else:
+        print("x 5 এর চেয়ে বড় না")
+
+3. if-elif-else statement
+একাধিক শর্ত চেক করার জন্য ব্যবহার হয়।
+
+Ex.
+    if x > 10:
+        print("10 এর চেয়ে বড়")
+    elif x == 10:
+        print("10 এর সমান")
+    else:
+        print("10 এর ছোট")
+
+4. Nested if (if এর ভিতরে if)
+
+Ex.
+    if x > 10:
+        if x < 20:
+            print("x 10 এবং 20 এর মধ্যে")
+
+5. Short-hand (এক লাইনে if)
+
+Ex.
+    x = 5
+    result = "Positive" if x > 0 else "Negative"
+    print(result)
+
+
+
+Note:
+f-string (Formatted String) কী?
+
+Python-এ f-string ব্যবহার করা হয় string এর ভিতরে variable বা calculation বসানোর জন্য।
+
+=> f মানে formatted
+
+syntax:
+        f"your text {variable}"
