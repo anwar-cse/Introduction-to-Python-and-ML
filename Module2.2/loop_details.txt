@@ -1,0 +1,70 @@
+Loop কী?
+
+Loop হলো এমন একটি process যার মাধ্যমে একই কাজ বারবার করা যায়।
+=> মানে: repeat execution
+
+1. for loop
+যখন নির্দিষ্ট সংখ্যক বার কাজ করতে চাই, তখন for loop ব্যবহার করি।
+Ex.
+    for i in range(5):
+        print(i)
+
+List দিয়ে loop:
+                fruits = ["apple", "banana", "mango"]
+
+                for fruit in fruits:
+                    print(fruit)
+
+2. while loop
+
+যতক্ষণ condition True থাকবে, ততক্ষণ loop চলবে।
+            
+            x = 1
+            while x <= 5:
+                print(x) 
+                x += 1
+
+⚡ break & continue
+🔸 break → loop বন্ধ করে
+                for i in range(5):
+                    if i == 3:
+                        break
+                    print(i) #output:1 2 3
+
+🔸 continue → skip করে
+            for i in range(5):
+                if i == 3:
+                    continue
+                print(i)
+
+Nested loop (loop এর ভিতরে loop)
+
+
+Note:
+range() কী?
+
+range() হলো Python-এর একটি function, যেটা number sequence (সংখ্যার সিরিজ) তৈরি করে।
+
+=> এটা mainly loop (for loop)-এ ব্যবহার হয়
+
+Syntax:
+        range(start, end, step)
+    
+3 ধরনের ব্যবহার
+    1️. শুধু end দিলে:
+
+        for i in range(5):
+        print(i) #output:0 1 2 3 4 //default start = 0
+
+    2.start এবং end:
+        for i in range(1, 6):
+        print(i) #output:1 2 3 4 5
+    
+    3.step সহ
+        for i in range(1, 10, 2):
+        print(i) #output:1 3 5 7 9 
+    
+    Note:
+        Reverse (উল্টোভাবে)
+            for i in range(10, 0, -1):
+            print(i) #output:10 9 8 7 6 5 4 3 2 1
