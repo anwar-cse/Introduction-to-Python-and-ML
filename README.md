@@ -9,7 +9,7 @@ You can click on any module below to explore the materials directly.
 
 ### 🔹 Module 1: Python Basics
 - [Module1.0](./Module1.0)  : Setup reference
-- [Module1.1](./Module1.1   : Print Hellow World
+- [Module1.1](./Module1.1)  : Print Hellow World
 - [Module1.2](./Module1.2)  : Variable (Python)
 - [Module1.3](./Module1.3)  : User Input
 - [Module1.4](./Module1.4)  : Operator
